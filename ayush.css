@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+.list-item ul {
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+li{
+    list-style: none;
+    
+}
+
+.waving-hand{
+    margin-left: 484px;
+    margin-top: -170px;
+}
+
+.waving-hand p  {
+    font-size: 7px;
+}
+
+.developer{
+    color: yellow;
+}
+
+.waving-hand img{
+    height: 10px;
+    width: 10px;
+}
+.pc-image img{
+    height: 250px;
+    width: 250px;
+    margin-left: 620px;
+    margin-top: 22px;
+}
+
+
+
+/* main section */
+.image img {
+    height: 100px;
+    width: 100px;
+}
+/* main section */
+.image{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 590px;
+    margin-top: 140px;
+    gap: 10px;
+}
+
+
+/* projects */
+
+.image2 img {
+    height: 100px;
+    width: 100px;
+}
+
+.image2{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 585px;
+    margin-top: 28px;
+    gap: 10px;
+}
+
+
+/*  footer */
+
+.contact{
+    margin-left: 650px;
+    margin-top: 40px;
+    
+}
+
+.footer img{
+
+    height: 20px;
+    width: 20px;
+}
+
+.footer{
+    display: flex;
+    gap: 10px;
+    margin-left: 635px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+              /*--------media query-------- */
+
+
+              @media  screen and (max-width:576px) {
+                 .list-item ul {
+                    display: none;
+                }
+
+                .pc-image{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+              }
